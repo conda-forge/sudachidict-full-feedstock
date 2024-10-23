@@ -1,5 +1,5 @@
 {% set name = "sudachidict-full" %}
-{% set version = "20240716" %}
+{% set version = "20241021" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/SudachiDict-full-{{ version }}.tar.gz
-  sha256: 06097787356e8cf30c9d14777f87d75d43beada4c66b26b40ed9b6b61d5a260a
+  sha256: d673cf14632a5797b5e6124c7f0da05841d2557e32ff176297f4c8eda8ce93e3
 
 build:
   noarch: python
